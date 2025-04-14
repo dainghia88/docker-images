@@ -11,7 +11,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /home/admin/Documents/mysql-docker
+    path: "/home/admin/Documents/mysql-docker"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
